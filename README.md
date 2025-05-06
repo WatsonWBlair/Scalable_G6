@@ -2,6 +2,8 @@
 
 This repository contains a collection of scripts for analyzing flight delay data using AWS EC2 and Hive. The package automates the process of transferring scripts to an EC2 instance, initializing the database, running queries, and retrieving results for visualization.
 
+The presentation for this project can be found here: https://docs.google.com/presentation/d/1oqVRY2z6ms0ivcUo_MbyGE-W0ATb3TJsozcmwzHcXsw/edit?usp=sharing
+
 ## Files Overview
 
 - Scripts (Run in this order)
