@@ -42,8 +42,8 @@ EC2_HOST='ec2-34-231-180-243.compute-1.amazonaws.com'
 YEARS=(1997 2002 2005 2006 2007)
 SAMPLE_SIZE=40000
 ```
->You will need to update the EC2_HOST to match your deployed cluster
->It is expected that your permission key will be stored in the root directory of this project
+>- You will need to update the EC2_HOST to match your deployed cluster
+>- It is expected that your permission key will be stored in the root directory of this project
 
 ### Step 2: Transfer Scripts to EC2
 
