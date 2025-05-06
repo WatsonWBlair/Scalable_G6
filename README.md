@@ -32,21 +32,25 @@ This repository contains a collection of scripts for analyzing flight delay data
 
 ### Step 1: Configure Environment Variables
 
-Before running any scripts, update the `.env` file in the project directory with the following variables:
+Before running any scripts, update the `.env` file in the scripts directory with the following variables:
 
 ```
-EC2_USER=hadoop
-EC2_HOST=your-instance-public-dns.amazonaws.com
-EC2_KEY_PATH=/path/to/your-key.pem
-REMOTE_DIR=/home/ec2-user/flight-delay-analysis
+EC2_KEY_PATH='Scalable.pem'
+EC2_USER='hadoop'
+REMOTE_DIR='/home/hadoop'
+EC2_HOST='ec2-34-231-180-243.compute-1.amazonaws.com'
+YEARS=(1997 2002 2005 2006 2007)
+SAMPLE_SIZE=40000
 ```
+>You will need to update the EC2_HOST to match your deployed cluster
+>It is expected that your permission key will be stored in the root directory of this project
 
 ### Step 2: Transfer Scripts to EC2
 
 Run the `runLocal.sh` script from your local machine:
 
 ```bash
-sh runLocal.sh
+sh ./scripts/runLocal.sh
 ```
 
 This script will:
@@ -58,7 +62,7 @@ This script will:
 Run the initialization script on your EC2 instance:
 
 ```bash
-sh ./scripts/initRemote.sh
+sh initRemote.sh
 ```
 
 This script will:
