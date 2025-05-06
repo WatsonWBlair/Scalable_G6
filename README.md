@@ -115,3 +115,16 @@ These notebooks will:
 - Load the sample data into a dataframe
 - Preform some basic EDA and Data Preperation
 - Train and Evaluate the classifier
+
+
+## Classifier Results:
+
+- Random Forest: [0, 0, 0, 1, 0, 0, 1, 0, 0, 1]
+- K Nearest Neighbor: 
+- SDG Classifier:
+- XG Boost:
+- Logistic Regressor: 
+
+
+
+<!-- Actual = [0,0,0,0,0,0,1,1,1,1] -->
