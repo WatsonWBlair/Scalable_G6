@@ -47,7 +47,7 @@ SAMPLE_SIZE=40000
 
 ### Step 2: Transfer Scripts to EC2
 
-Run the `runLocal.sh` script from your local machine:
+Run the `runLocal.sh` script from the root directory of this project on your local machine:
 
 ```bash
 sh ./scripts/runLocal.sh
