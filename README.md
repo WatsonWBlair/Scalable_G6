@@ -123,7 +123,7 @@ These notebooks will:
 
 - Random Forest: [0, 0, 0, 1, 0, 0, 1, 0, 0, 1]
 - K Nearest Neighbor: 
-- SDG Classifier:
+- SGD Classifier: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1]
 - XG Boost:
 - Logistic Regressor: [1, 1, 1, 1, 0, 1, 1, 1, 0, 0]
 - Logistic Regressor(2006_sample_only): [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
