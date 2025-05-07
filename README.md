@@ -127,6 +127,6 @@ These notebooks will:
 - XG Boost:
 - Logistic Regressor: [1, 1, 1, 1, 0, 1, 1, 1, 0, 0]
 - Logistic Regressor(2006_sample_only): [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
-
+- Gradient Boosting  : [0, 1, 0, 0, 0, 0, 0, 1, 0, 0]
 
 <!-- Actual = [0,0,0,0,0,0,1,1,1,1] -->
