@@ -125,8 +125,8 @@ These notebooks will:
 - K Nearest Neighbor: 
 - SDG Classifier:
 - XG Boost:
-- Logistic Regressor: 
-
+- Logistic Regressor: [1, 1, 1, 1, 0, 1, 1, 1, 0, 0]
+- Logistic Regressor(2006_sample_only): [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
 
 
 <!-- Actual = [0,0,0,0,0,0,1,1,1,1] -->
